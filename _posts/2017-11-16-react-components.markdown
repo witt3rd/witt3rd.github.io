@@ -4,7 +4,7 @@ title:  "Reusable React Components"
 date:   2017-11-16 09:07:14 -0800
 categories: React NPM
 ---
-[Facebook's React.js UI frameowk][https://reactjs.org/] takes a component-based approach to building user experiences.  We'd like to easily share and reuse these components.  Based on [Noel Broda's article][https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce], I have published two simple repositories:
+(Facebook's React.js UI framework)[https://reactjs.org/] takes a component-based approach to building user experiences.  We'd like to easily share and reuse these components.  Based on [Noel Broda's article][https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce], I have published two simple repositories:
 
 - [React Component Boilerplate][https://github.com/witt3rd/react-component-boilerplate]
 - [React Component Boilerplate Test][https://github.com/witt3rd/react-component-boilerplate]

@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Collection of useful things for bleeding-edge frontend development"
+date:   2017-11-21 09:07:14 -0800
+categories: React GraphQL Glamorous Apollo
+---
+[What’s Next.js for Apollo](https://dev-blog.apollodata.com/whats-next-js-for-apollo-e4dfe835d070)
+
+[Introducing glamorous](https://blog.kentcdodds.com/introducing-glamorous-fb3c9f4ed20e)
+

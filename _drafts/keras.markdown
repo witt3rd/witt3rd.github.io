@@ -80,8 +80,9 @@ for j in xrange(60000):
     syn1 += l1.T.dot(l2_delta)
     syn0 += X.T.dot(l1_delta)
 ```
+(We have used a slightly different implementation in our sample.)
 
-We have used a slightly different implementation in our sample
+To run:
 ```bash
 source activate keras
 cd keras/xor-numpy
@@ -120,3 +121,5 @@ source activate keras
 cd keras/xor-keras
 python main.py
 ```
+
+# MNIST

@@ -5,7 +5,11 @@ date:   2018-06-13 00:00:00 -0700
 categories: Deep Learning AI
 ---
 
-In this post, we explore some [#DeepLearning](https://twitter.com/search?q=%23DeepLearning) with the [Keras](https://keras.io/high-level) library for Python.  This is a whirlwind post that is meant to provide pointers to basic environment setup, quick ramp on neural nets using the [XOR](https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b) problem, simple training for the [MNIST digit recognition](https://keras.io/datasets/) problem, and some quick samples involving [OpenAI's Gym](https://github.com/openai/gym).
+In this post, we explore some [#DeepLearning](https://twitter.com/search?q=%23DeepLearning) with the [Keras](https://keras.io/high-level) library for Python.
+
+This is a whirlwind post that is meant to provide pointers to basic environment setup, quick ramp on neural nets using the [XOR](https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b) problem, simple training for the [MNIST digit recognition](https://keras.io/datasets/) problem, and some quick samples involving [OpenAI's Gym](https://github.com/openai/gym).
+
+Links are provided to source blog posts that go into more detail on each of these examples.  Our future posts will build on this basic foundation. 
 
 * [Prerequisites and setup are covered in this gist](https://gist.github.com/witt3rd/567d1e52f1e2da4f45ed72e436dc4576)
 * [Sample code is maintained in this repo](https://github.com/witt3rd/keras)
@@ -90,7 +94,7 @@ python main.py
 ```
 
 ## With Keras
-This simple model can be translated into Keras following [](https://blog.thoughtram.io/machine-learning/2016/11/02/understanding-XOR-with-keras-and-tensorlow.html):
+This simple model can be translated into Keras following [Understanding XOR with Keras and TensorFlow](https://blog.thoughtram.io/machine-learning/2016/11/02/understanding-XOR-with-keras-and-tensorlow.html):
 ```python
 import numpy as np
 from keras.models import Sequential
@@ -123,6 +127,55 @@ python main.py
 ```
 
 # MNIST
+Another classic problem used determine the worhtiness of a machine learning algorithm is recognizing handwritten digits, known as [MNIST](http://yann.lecun.com/exdb/mnist/).
+
+Keras has built-in support for this dataset, so makes working with it quite easy.
+
+## Matplotlib
+It is often useful to visualize various aspects of the problem during solution development or processing.  A common Python library is `matplotlib`.  In this sample, we simply load the MNIST training data and render one of the samples:
+
+```python
+from keras.datasets import mnist
+import matplotlib.pyplot as plt
+
+(train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+
+print("training data = dims: {}, shape: {}, dtype: {}".format(
+    train_images.ndim, train_images.shape, train_images.dtype))
+
+digit = train_images[4]
+
+plt.imshow(digit, cmap=plt.cm.binary)
+plt.show()
+```
+
+To run:
+```bash
+source activate keras
+cd mnist_plt
+python main.py
+```
+
+A successful run of the `matplotlib` should produce a rendering like:
+
+![mnist_plt]({{ site.url }}/assets/mnist_plt.png)
+
+## Classifying Digits
+The seoncd MNIST sample has been slightly modified from [MNIST Handwritten digits classification using Keras](http://www.python36.com/mnist-handwritten-digits-classification-using-keras/) to train a model that is capable recognizing hand-written digits.
+
+To run:
+```bash
+source activate keras
+cd mnist
+python main.py
+```
+
+The full training run will produce a JSON-based model file and console output indicating the accuracy:
+
+```bash
+Test loss: 0.02734791577121632
+Test accuracy: 0.9917
+```
 
 # OpenAI Gym
 From the [website](https://gym.openai.com/docs/):

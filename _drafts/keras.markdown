@@ -5,7 +5,7 @@ date:   2018-06-13 00:00:00 -0700
 categories: Deep Learning AI
 ---
 
-In this post, we explore some [#DeepLearning](https://twitter.com/search?q=%23DeepLearning) with the [Keras](https://keras.io/high-level) library for Python.
+In this post, we explore some [#DeepLearning](https://twitter.com/search?q=%23DeepLearning) with the [Keras](https://keras.io/high-level) library for Python.  This is a whirlwind post that is meant to provide pointers to basic environment setup, quick ramp on neural nets using the [XOR](https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b) problem, simple training for the [MNIST digit recognition](https://keras.io/datasets/) problem, and some quick samples involving [OpenAI's Gym](https://github.com/openai/gym).
 
 * [Prerequisites and setup are covered in this gist](https://gist.github.com/witt3rd/567d1e52f1e2da4f45ed72e436dc4576)
 * [Sample code is maintained in this repo](https://github.com/witt3rd/keras)
@@ -123,3 +123,30 @@ python main.py
 ```
 
 # MNIST
+
+# OpenAI Gym
+From the [website](https://gym.openai.com/docs/):
+> OpenAI Gym is a toolkit for developing and comparing reinvorcement learning algorithms.
+
+## Environments
+The core abstraction of Gym is that of an **environment** that can be used to solve reinforcement learning problems.  These include pendulum experiments (`CartPole-v0`), video games (`MsPacman=v0`), etc.
+
+## Observations
+An **observation** is an environment-specific object representing what your agent perceives of the environment, such as raw pixel values, joint angles and velocities, etc.
+
+## Actions
+After reflecting on an observation and deciding what to do, your agent performs an **action** in the environment during a **step**, which produces a new observation along with a **reward**.
+
+## Spaces
+Every environment includes an **observation space** and an **action space**, which describe their valid formats.
+
+To run:
+```bash
+source activate keras
+cd keras/gym-simple
+python main.py
+```
+which should render something resembling:
+
+![cart-pole]({{ site.url }}/assets/cartpole.png)
+

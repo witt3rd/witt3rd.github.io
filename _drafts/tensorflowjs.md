@@ -31,7 +31,7 @@ Sample code is maintained in the [tensorflowjs repo](https://github.com/witt3rd/
 
 When learning something new, it is often valuable to base it on something trivial and/or familiar, so that you can focus what is new. (To paraphrase a random YouTube chat room comment during [The Coding Train: Live Stream #141](https://www.youtube.com/watch?v=_wC4sn5qKQw).)
 
-The [Keras]() version (Python) of this problem was solved by:
+The [Keras](https://github.com/witt3rd/keras/tree/master/xor_keras) version (Python) of this problem was solved by:
 
 ```python
 import numpy as np

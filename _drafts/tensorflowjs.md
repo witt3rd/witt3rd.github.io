@@ -5,11 +5,11 @@ date:   2018-06-15 00:00:00 -0700
 categories: Deep Learning AI
 ---
 
-> experiments with the TensorFlowJS deep learning library
+> experiments with the TensorFlowJS](https://js.tensorflow.org) [#DeepLearning](https://twitter.com/search?q=%23DeepLearning) JavaScript library
 
 ## Introduction
 
-We continue our [#DeepLearning](https://twitter.com/search?q=%23DeepLearning) series with a quick introduction to the [TensorFlowJS](https://js.tensorflow.org) JavaScript library.
+Having now [played with Keras](https://witt3rd.github.io/deep/learning/ai/2018/06/13/keras.html) a bit in Python, which is used for "serious" deep learning work, we next look at [TensorFlowJS](https://js.tensorflow.org) JavaScript library, which can be used in Node or in the browser.
 
 ## Prerequisites and Setup
 
@@ -23,4 +23,4 @@ Sample code is maintained in the [tensorflowjs repo](https://github.com/witt3rd/
 
 ## License
 
-MIT &copy; [Donald Thompson](http://witt3rd.com)
+MIT &copy; 2018 [Donald Thompson](http://witt3rd.com)

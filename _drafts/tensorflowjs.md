@@ -2,8 +2,11 @@
 layout: post
 title:  "TensorFlowJS"
 date:   2018-06-15 00:00:00 -0700
+math:   true
 categories: Deep Learning AI
 ---
+
+$$a^2 + b^2 = c^2$$
 
 > experiments with the [TensorFlowJS](https://js.tensorflow.org) [#DeepLearning](https://twitter.com/search?q=%23DeepLearning) JavaScript library
 

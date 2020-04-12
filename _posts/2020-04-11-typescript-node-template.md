@@ -2,7 +2,7 @@
 layout: post
 title: Minimalist TypeScript + Node Template
 slug: typescript_template
-date: '2020-04-11 20:45:57-07:00'
+date: "2020-04-11 20:45:57-07:00"
 ---
 
 In this post, we detail the setup of a minimal [TypeScript project template](https://github.com/witt3rd/typescript-node-template) that we can build upon for other project templates (e.g., Express, GraphQL, MongoDB). Despite being minimal, it sports hot reloading, linting, and code formatting. This has been cobbled together from a variety of resources (see below).
@@ -49,8 +49,6 @@ npx tsc --init
 
 Change the following `compilerOptions` values from their defaults:
 
-- [target](https://www.typescriptlang.org/tsconfig#target): `"es2020"` - latest version
-- [module](https://www.typescriptlang.org/tsconfig#module): `"es2020"` - latest version
 - [sourceMap](https://www.typescriptlang.org/tsconfig#sourceRoot): `false` - no separate source map, since we're using inline maps (default)
 - [baseUrl](https://www.typescriptlang.org/tsconfig#baseUrl): `"."` - default value, but required to be explicitly set when `paths` is set
 - [paths](https://www.typescriptlang.org/tsconfig#paths): `{ "*": ["./src/*"] }` - search for imports within the `src` directory

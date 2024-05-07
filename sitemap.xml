@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/about.html</loc>
-    <lastmod>2024-05-07T16:58:17.701Z</lastmod>
+    <loc>https://witt3rd.github.io/index.html</loc>
+    <lastmod>2024-05-07T17:06:43.688Z</lastmod>
   </url>
   <url>
-    <loc>git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/posts/welcome/index.html</loc>
-    <lastmod>2024-05-07T16:47:43.421Z</lastmod>
+    <loc>https://witt3rd.github.io/posts/welcome/index.html</loc>
+    <lastmod>2024-05-07T17:06:43.688Z</lastmod>
   </url>
   <url>
-    <loc>git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/posts/post-with-code/index.html</loc>
-    <lastmod>2024-05-07T17:00:36.696Z</lastmod>
+    <loc>https://witt3rd.github.io/about.html</loc>
+    <lastmod>2024-05-07T17:06:43.688Z</lastmod>
   </url>
   <url>
-    <loc>git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/index.html</loc>
-    <lastmod>2024-05-07T16:47:43.421Z</lastmod>
+    <loc>https://witt3rd.github.io/posts/post-with-code/index.html</loc>
+    <lastmod>2024-05-07T17:06:43.688Z</lastmod>
   </url>
 </urlset>

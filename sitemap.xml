@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://witt3rd.github.io/index.html</loc>
-    <lastmod>2024-05-07T21:50:40.754Z</lastmod>
+    <loc>git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/about.html</loc>
+    <lastmod>2024-05-07T20:06:00.858Z</lastmod>
   </url>
   <url>
-    <loc>https://witt3rd.github.io/about.html</loc>
-    <lastmod>2024-05-07T21:50:40.754Z</lastmod>
+    <loc>git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/posts/dspy/index.html</loc>
+    <lastmod>2024-05-07T21:50:16.995Z</lastmod>
   </url>
   <url>
-    <loc>https://witt3rd.github.io/posts/dspy/index.html</loc>
-    <lastmod>2024-05-07T21:50:40.754Z</lastmod>
+    <loc>git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/index.html</loc>
+    <lastmod>2024-05-07T16:47:43.421Z</lastmod>
   </url>
 </urlset>

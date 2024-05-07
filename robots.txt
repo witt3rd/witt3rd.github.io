@@ -1,1 +1,1 @@
-Sitemap: https://witt3rd.github.io/sitemap.xml
+Sitemap: git@github.com-witt3rd:witt3rd/witt3rd.github.io.git/sitemap.xml

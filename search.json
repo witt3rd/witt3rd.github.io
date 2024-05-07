@@ -1,17 +1,17 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "witt3rd.github.io",
+    "section": "",
+    "text": "DSPy Tutorial\n\n\n\n\n\n\ncode\n\n\ntutorial\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\nDonald Thompson\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Various technology explorations."
   },
   {
     "objectID": "posts/dspy/index.html",
@@ -19,19 +19,5 @@
     "title": "DSPy Tutorial",
     "section": "",
     "text": "DSPy Tutorial\nFor a demonstration of the DSPy package, we will use the following Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Generate some random data\ntheta = np.linspace(0, 2*np.pi, 100)\nr = np.random.rand(100)\n\n# Create a polar plot\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\n\n# Set the title and show the plot\nax.set_title('Line Plot on Polar Axis')\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: Displaying Plots"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "witt3rd.github.io",
-    "section": "",
-    "text": "DSPy Tutorial\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\nDonald Thompson\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 4, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]

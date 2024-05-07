@@ -2,9 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/dspy/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/dspy/index.html"
     ]
   }
 ]

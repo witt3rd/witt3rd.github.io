@@ -194,6 +194,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<p>Here is a simple footnote<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>A footnote can also have multiple lines<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
 <p><a href="https://github.com/stanfordnlp/dspy">DSPy</a> is a new framework for developing applications using large language models (LLMs) that aims to solve the fragility and complexity issues of traditional LLM-based pipelines. It aims to make building complex, multi-step LLM applications more straightforward and robust by providing a declarative programming model and automated optimization capabilities.</p>
 <ul>
 <li>DSPy provides a declarative, composable, and Pythonic syntax for building LLM-based programs, replacing the need for manual prompt engineering</li>
@@ -252,37 +254,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="what-specific-challenges-in-using-large-language-models-does-dspy-aim-to-overcome">What specific challenges in using large language models does DSPy aim to overcome?</h3>
 <p>DSPy aims to address the following key challenges in using large language models:</p>
 <ol type="1">
-<li><p>Fragility and complexity of traditional LLM-based pipelines[^1][^2][^4]:</p>
+<li><p>Fragility and complexity of traditional LLM-based pipelines<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>[^4]:</p>
 <ul>
-<li>DSPy provides a declarative, composable, and Pythonic syntax for building LLM-based programs, replacing the need for manual prompt engineering[^1][^2][^4].</li>
-<li>DSPy includes an “automatic compiler” that can optimize the prompts, instructions, and LM weights for each component of an LLM program, improving the overall quality and efficiency[^1][^2][^4].</li>
+<li>DSPy provides a declarative, composable, and Pythonic syntax for building LLM-based programs, replacing the need for manual prompt engineering<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>[^4].</li>
+<li>DSPy includes an “automatic compiler” that can optimize the prompts, instructions, and LM weights for each component of an LLM program, improving the overall quality and efficiency<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>[^4].</li>
 </ul></li>
 <li><p>Specialization and alignment issues:</p>
 <ul>
 <li>DSPy allows chaining together multiple LLM calls into a program, where the output of one LLM call becomes the input to the next[^3].</li>
-<li>DSPy introduces abstractions like “Signatures” to cleanly represent the input/output specifications of each LLM component[^2].</li>
+<li>DSPy introduces abstractions like “Signatures” to cleanly represent the input/output specifications of each LLM component<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>.</li>
 </ul></li>
 <li><p>Hallucination problems:</p>
 <ul>
-<li>DSPy enables providing structured data (e.g.&nbsp;tables) as input to LLMs to constrain their outputs and avoid hallucinations[^1].</li>
+<li>DSPy enables providing structured data (e.g.&nbsp;tables) as input to LLMs to constrain their outputs and avoid hallucinations<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>.</li>
 </ul></li>
 </ol>
-<p>In summary, DSPy aims to make building complex, multi-step LLM applications more straightforward and robust by providing a declarative programming model and automated optimization capabilities to address the key challenges of fragility, specialization, alignment, and hallucination[^1][^2][^3][^4].</p>
-<p>Citations: [^1]: <a name="fn1"></a> https://www.youtube.com/watch?v=1QWXhEzlgME [^2]: <a name="fn2"></a> https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9 [^3]: <a name="fn3"></a> https://arxiv.org/pdf/2310.03714.pdf [^4]: <a name="fn4"></a> https://www.theaidream.com/post/dspy-a-revolutionary-framework-for-programming-llms [^5]: <a name="fn5"></a> https://weaviate.io/blog/dspy-optimizers</p>
+<p>In summary, DSPy aims to make building complex, multi-step LLM applications more straightforward and robust by providing a declarative programming model and automated optimization capabilities to address the key challenges of fragility, specialization, alignment, and hallucination<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a><a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>[^3][^4].</p>
+<p>Citations: <a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>: <a name="fn1"></a> https://www.youtube.com/watch?v=1QWXhEzlgME <a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>: <a name="fn2"></a> https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9 [^3]: <a name="fn3"></a> https://arxiv.org/pdf/2310.03714.pdf [^4]: <a name="fn4"></a> https://www.theaidream.com/post/dspy-a-revolutionary-framework-for-programming-llms [^5]: <a name="fn5"></a> https://weaviate.io/blog/dspy-optimizers</p>
 </section>
 <section id="how-does-dspy-improve-the-robustness-and-reliability-of-llm-based-applications-compared-to-existing-frameworks" class="level3">
 <h3 class="anchored" data-anchor-id="how-does-dspy-improve-the-robustness-and-reliability-of-llm-based-applications-compared-to-existing-frameworks">How does DSPy improve the robustness and reliability of LLM-based applications compared to existing frameworks?</h3>
 <p>DSPy improves the robustness and reliability of LLM-based applications compared to existing frameworks in several key ways:</p>
 <ol type="1">
-<li><p><strong>Declarative programming model</strong>: DSPy provides a declarative, composable, and Pythonic syntax for building LLM-based programs, replacing the need for manual prompt engineering[^1][^2][^4]. This makes the application logic more explicit and easier to reason about.</p></li>
-<li><p><strong>Automated prompt optimization</strong>: DSPy includes an “automatic compiler” that can optimize the prompts, instructions, and LM weights for each component of an LLM program, improving the overall quality and efficiency[^1][^2][^4]. This eliminates the need for constant manual prompt tuning.</p></li>
+<li><p><strong>Declarative programming model</strong>: DSPy provides a declarative, composable, and Pythonic syntax for building LLM-based programs, replacing the need for manual prompt engineering<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a><a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>[^4]. This makes the application logic more explicit and easier to reason about.</p></li>
+<li><p><strong>Automated prompt optimization</strong>: DSPy includes an “automatic compiler” that can optimize the prompts, instructions, and LM weights for each component of an LLM program, improving the overall quality and efficiency<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a><a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a>[^4]. This eliminates the need for constant manual prompt tuning.</p></li>
 <li><p><strong>Modular architecture</strong>: DSPy allows chaining together multiple LLM calls into a program, where the output of one LLM call becomes the input to the next[^3]. This modular approach makes the application more robust to changes in individual components.</p></li>
-<li><p><strong>Structured input/output</strong>: DSPy introduces abstractions like “Signatures” to cleanly represent the input/output specifications of each LLM component[^2]. This helps avoid mismatches between components and makes the application more reliable.</p></li>
+<li><p><strong>Structured input/output</strong>: DSPy introduces abstractions like “Signatures” to cleanly represent the input/output specifications of each LLM component<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>. This helps avoid mismatches between components and makes the application more reliable.</p></li>
 <li><p><strong>Flexibility and control</strong>: By providing a programming model, DSPy gives developers more flexibility and control over how the LLM components interact with each other[^3]. This allows for more sophisticated and reliable application logic.</p></li>
 </ol>
-<p>In summary, by shifting the focus from prompting to programming, DSPy makes LLM-based applications more robust, reliable, and adaptable compared to existing frameworks that rely more heavily on manual prompt engineering[^1][^2][^3][^4].</p>
-<p>Citations: [^1]: <a name="fn1"></a> https://ai.plainenglish.io/unlocking-self-optimizing-llm-apps-harnessing-dspy-and-self-discover-fa05c7c818ad?gi=eee8647e4331 [^2]: <a name="fn2"></a> https://www.theaidream.com/post/dspy-a-revolutionary-framework-for-programming-llms [^3]: <a name="fn3"></a> https://www.youtube.com/watch?v=41EfOY0Ldkc [^4]: <a name="fn4"></a> https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9 [^5]: <a name="fn5"></a> https://github.com/stanfordnlp/dspy</p>
-<div id="cell-6" class="cell" data-execution_count="2">
+<p>In summary, by shifting the focus from prompting to programming, DSPy makes LLM-based applications more robust, reliable, and adaptable compared to existing frameworks that rely more heavily on manual prompt engineering<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a><a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a>[^3][^4].</p>
+<p>Citations: <a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a>: <a name="fn1"></a> https://ai.plainenglish.io/unlocking-self-optimizing-llm-apps-harnessing-dspy-and-self-discover-fa05c7c818ad?gi=eee8647e4331 <a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a>: <a name="fn2"></a> https://www.theaidream.com/post/dspy-a-revolutionary-framework-for-programming-llms [^3]: <a name="fn3"></a> https://www.youtube.com/watch?v=41EfOY0Ldkc [^4]: <a name="fn4"></a> https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9 [^5]: <a name="fn5"></a> https://github.com/stanfordnlp/dspy</p>
+<div id="cell-7" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -313,7 +315,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>My reference.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>My reference.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>My reference.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>My reference.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>My reference.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>My reference.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>My reference.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>My reference.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>My reference.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>My reference.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>My reference.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

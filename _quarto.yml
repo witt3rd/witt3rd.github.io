@@ -15,7 +15,7 @@ website:
         href: https://www.linkedin.com/in/thompsondonald/
 format:
   html:
-    theme: quartz
+    theme: darkly
     css: styles.css
 execute:
   freeze: auto

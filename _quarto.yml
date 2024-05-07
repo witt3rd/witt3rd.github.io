@@ -8,10 +8,14 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/witt3rd
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/dt_public
+      - icon: linkedin
+        href: https://www.linkedin.com/in/thompsondonald/
 format:
   html:
-    theme: cosmo
+    theme: quartz
     css: styles.css
+execute:
+  freeze: auto

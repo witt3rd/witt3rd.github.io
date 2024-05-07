@@ -18,7 +18,7 @@
     "href": "posts/dspy/index.html",
     "title": "DSPy Tutorial",
     "section": "",
-    "text": "DSPy Tutorial\nFor a demonstration of the DSPy package, we will use the following ?@fig-dspy.\n\n\nCode\n\n#| label: fig-dspy\n#| fig-cap: Displaying Plots\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Generate some random data\ntheta = np.linspace(0, 2*np.pi, 100)\nr = np.random.rand(100)\n\n# Create a polar plot\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\n\n# Set the title and show the plot\nax.set_title('Line Plot on Polar Axis')\nplt.show()"
+    "text": "DSPy Tutorial\nFor a demonstration of the DSPy package, we will use the following Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Generate some random data\ntheta = np.linspace(0, 2*np.pi, 100)\nr = np.random.rand(100)\n\n# Create a polar plot\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\n\n# Set the title and show the plot\nax.set_title('Line Plot on Polar Axis')\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: Displaying Plots"
   },
   {
     "objectID": "posts/post-with-code/index.html",

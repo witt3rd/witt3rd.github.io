@@ -1,3 +1,6 @@
 ipykernel
+ipywidgets
+#
+git+https://github.com/stanfordnlp/dspy.git
+groq
 numpy
-matplotlib
